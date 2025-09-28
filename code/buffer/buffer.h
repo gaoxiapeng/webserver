@@ -1,7 +1,7 @@
 // 当多个源文件（.cpp）通过 #include "Buffer.h"包含同一个头文件时
 // 如果头文件没有保护，其内容会被重复展开到每个源文件中。这会导致重复定义和编译失败
 #ifndef BUFFER_H   // 如果没有定义BUFFER_H宏
-#define BUFFER_H   // 定义
+#define BUFFER_H   // 定义宏
 // #pragma once    // 替代 #ifndef/#define（C++17）
 
 #include <cstring>
